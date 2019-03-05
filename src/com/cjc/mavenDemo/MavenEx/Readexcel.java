@@ -12,6 +12,8 @@ public class Readexcel {
 	   XSSFSheet sheet;
 		public void exceldata(String file) throws IOException
 		{
+			System.out.println("sdffdsdfdfdsdsdsfdsfsdffdffsfdsfsfdsfdsf");
+			System.out.println("dfgdf");
 			FileInputStream fis= new FileInputStream(file);
 			wb= new XSSFWorkbook(fis);
 			
